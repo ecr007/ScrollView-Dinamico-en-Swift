@@ -11,7 +11,7 @@ Pasos para crear el scroll view dinamico
 	
 	A) Se le coloca el equal width de la vista que esta encima del scrollview
 	
-	B) Se le coloca el equal height con la vista que esta encima del scrollview
+	B) Se le coloca el equal height con la vista que esta encima del scrollview [A una prioridad de 250]
 	
 	C) Es importante que el primer y ultimo elemento dentro de este view definan los "padding" 
 	el primero en el top y el ultimo en el bottom 
