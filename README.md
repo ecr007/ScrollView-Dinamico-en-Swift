@@ -15,3 +15,16 @@ Pasos para crear el scroll view dinamico
 	
 	C) Es importante que el primer y ultimo elemento dentro de este view definan los "padding" 
 	el primero en el top y el ultimo en el bottom 
+
+
+# Para xCode 11 
+
+El Scrollview funciona un poco diferente, para esto se debe crear una vista dentro del view principal, quedaria así:
+
+- ViewPrincipal
+-- ViewContent (0,0,0,0)
+--- ScrollView (0,0,0,0)
+---- ViewChildContend (0,0,0,0) (EqualWeight = WeightViewContent) (EquealHeight = HeightViewContent)
+----- First (Top)
+----- Last (Bottom) (Marcando la casilla "Constraint to margin")
+
