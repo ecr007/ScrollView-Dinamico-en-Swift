@@ -21,10 +21,11 @@ Pasos para crear el scroll view dinamico
 
 El Scrollview funciona un poco diferente, para esto se debe crear una vista dentro del view principal, quedaria así:
 
-- ViewPrincipal
--- ViewContent (0,0,0,0)
---- ScrollView (0,0,0,0)
----- ViewChildContend (0,0,0,0) (EqualWeight = WeightViewContent) (EquealHeight = HeightViewContent)
------ First (Top)
------ Last (Bottom) (Marcando la casilla "Constraint to margin")
++ - ViewPrincipal
++ -- ViewContent (0,0,0,0)
++ --- ScrollView (0,0,0,0)
++ ---- ViewChildContend (0,0,0,0) (EqualWeight = WeightViewContent) (EquealHeight = HeightViewContent)
++ ----- First (Top)
++ ----- Last (Bottom) (Marcando la casilla "Constraint to margin")
 
+<img src="scroll.png" alt="" />
