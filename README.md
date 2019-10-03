@@ -29,3 +29,6 @@ El Scrollview funciona un poco diferente, para esto se debe crear una vista dent
 + ----- Last (Bottom) (Marcando la casilla "Constraint to margin")
 
 <img src="scroll.png" alt="" />
+
+¿Dudas? 
+https://useyourloaf.com/blog/scroll-view-layouts-with-interface-builder/
