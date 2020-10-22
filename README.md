@@ -3,9 +3,12 @@ Pasos para crear el scroll view dinamico
 
 # 1 - Se crea el viewController y se deja caer el elemento scrollView 
 	
-	- con (0,0,0,0) para que ocupe toda la pantalla
+- con (0,0,0,0) para que ocupe toda la pantalla
 	
-	- Otro detalle se puede cambiar el alto del ViewController total para trabajar con mayor facilidad
+- Otro detalle se puede cambiar el alto del ViewController total para trabajar con mayor facilidad
+
+- Al scrollview hay que quitarle el Content Layout Guides
+	
   
 # 2 - dentro del scrollview se deja caer una UIView
 	
